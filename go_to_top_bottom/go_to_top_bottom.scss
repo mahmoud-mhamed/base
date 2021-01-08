@@ -1,0 +1,39 @@
+/*go to goToBottom css*/
+#goToBottom {
+    right: 30px;
+    bottom: 20px;
+    opacity: .4;
+    color: #af9a5f;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+    display: none;
+}
+
+#goToBottom:hover {
+    opacity: 1;
+}
+@media (max-width: 576px) {
+    #goToBottom {
+        bottom: 65px;
+    }
+}
+
+/*go to top css*/
+#goToTop {
+    right: 30px;
+    bottom: 20px;
+    opacity: .4;
+    color: #af9a5f;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+    display: none;
+}
+
+#goToTop:hover {
+    opacity: 1;
+}
+@media (max-width: 576px) {
+    #goToTop {
+        bottom: 65px;
+    }
+}
