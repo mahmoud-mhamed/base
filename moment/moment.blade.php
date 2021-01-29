@@ -1,3 +1,7 @@
+{{--
+expenses.index.blade
+--}}
 @section('script_head')
-    <script data-pagespeed-no-defer src="{{asset('base/moment/src/moment.min.js')}}"></script>
+    {{--this file from liprary src => no update--}}
+    <script data-pagespeed-no-defer src="{{asset('base/moment/moment.min.js')}}"></script>
 @append
